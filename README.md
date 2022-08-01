@@ -5,7 +5,7 @@
 A company produces hospital items through one of its factories in Brazil. 
 Each the factory has several industrial equipment that periodically requires maintenance.
 The company collected historical data associating different metrics (predictor variables) the need for equipment maintenance (yes or no). 
-The idea is to have a Machine model Learning capable of predicting when each machine will require maintenance and thus avoiding downtime unscheduled
+The idea is to have a Machine model Learning capable of predicting when each machine will require maintenance and thus avoiding downtime unscheduled.
 
 <div align="center">
 <p float="left">
@@ -26,23 +26,15 @@ This is a dilemma that is part of everyday life as a Data Scientist and, as Mach
 
 That said, this project aims to present an alternative that can help explain how predictive models make predictions.
 
-SHAP – which stands for SHpley Additive exPlanations – is probably the state of the art in Machine Learning explainability. 
-This algorithm was first published in 2017 by [Lundberg and Lee](https://arxiv.org/abs/1705.07874) and it's a brilliant way to do reverse engineering the output of any predictive algorithm.
+SHAP – which stands for SHpley Additive exPlanations – is probably the state of the art in Machine Learning explainability. This algorithm was first published in 2017 by [Lundberg and Lee](https://arxiv.org/abs/1705.07874) and it's a brilliant way to do reverse engineering the output of any predictive algorithm.
 
-In a nutshell, SHAP values ​​are used whenever you have a template complex (it could be a GBM, XGBoost, a Neural Network or anything that takes a few resources as input and produces some predictions as output) and you want to understand which decisions the model has made.
-That is, predictive models respond to “how much”. SHAP answers the “why”.
+In a nutshell, SHAP values ​​are used whenever you have a template complex (it could be a GBM, XGBoost, a Neural Network or anything that takes a few resources as input and produces some predictions as output) and you want to understand which decisions the model has made. That is, predictive models respond to “how much”. SHAP answers the “why”.
 
-Therefore, when we apply SHAP analysis to the model, we produce an array of SHAP values. The higher the SHAP value, the greater the probability of the positive prediction and vice versa.
-Furthermore, a SHAP value greater than zero leads to an increase in probability, a value less than zero leads to a decrease in probability.
+Therefore, when we apply SHAP analysis to the model, we produce an array of SHAP values. The higher the SHAP value, the greater the probability of the positive prediction and vice versa. Furthermore, a SHAP value greater than zero leads to an increase in probability, a value less than zero leads to a decrease in probability.
 
 In this project, we will also use the AutoML.
 
-AutoML or Automated Machine Learning is the process of automating the tasks of the development of Machine Learning models. 
-With AutoML, Data Scientists can create ML models with high scale, efficiency and productivity, while giving model quality support.
-The development of the traditional Machine Learning model is intensive use of resources, requiring significant domain knowledge and time to produce and compare dozens of models.
-With AutoML, you'll speed up the time it takes to get models from Production-ready ML with great ease and efficiency.
-The [link](https://www.automl.org/automl/) below has more details on AutoML, which is studied in the Machine course Learning from Data Scientist Training.
-
+AutoML or Automated Machine Learning is the process of automating the tasks of the development of Machine Learning models. With AutoML, Data Scientists can create ML models with high scale, efficiency and productivity, while giving model quality support. The development of the traditional Machine Learning model is intensive use of resources, requiring significant domain knowledge and time to produce and compare dozens of models. With AutoML, you'll speed up the time it takes to get models from Production-ready ML with great ease and efficiency. The [link](https://www.automl.org/automl/) below has more details on AutoML, which is studied in the Machine course Learning from Data Scientist Training.
 
 ***
 ## 2. BUSINESS ASSUMPTIONS
