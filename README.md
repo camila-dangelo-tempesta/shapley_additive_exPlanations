@@ -9,7 +9,7 @@ The idea is to have a Machine model Learning capable of predicting when each mac
 
 <div align="center">
 <p float="left">
-    <img src="/images/.png" width="1000" height="500"/>
+    <img src="/images/shap_model.png" width="1000" height="500"/>
 </p>
 </div>
 
