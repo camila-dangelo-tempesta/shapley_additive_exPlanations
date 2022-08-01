@@ -26,7 +26,7 @@ This is a dilemma that is part of everyday life as a Data Scientist and, as Mach
 
 That said, this project aims to present an alternative that can help explain how predictive models make predictions.
 
-SHAP – which stands for SHpley Additive exPlanations – is probably the state of the art in Machine Learning explainability. This algorithm was first published in 2017 by [Lundberg and Lee](https://arxiv.org/abs/1705.07874) and it's a brilliant way to do reverse engineering the output of any predictive algorithm.
+[SHAP](https://shap.readthedocs.io/en/latest/index.html) – which stands for SHpley Additive exPlanations – is probably the state of the art in Machine Learning explainability. This algorithm was first published in 2017 by [Lundberg and Lee](https://arxiv.org/abs/1705.07874) and it's a brilliant way to do reverse engineering the output of any predictive algorithm.
 
 In a nutshell, SHAP values ​​are used whenever you have a template complex (it could be a GBM, XGBoost, a Neural Network or anything that takes a few resources as input and produces some predictions as output) and you want to understand which decisions the model has made. That is, predictive models respond to “how much”. SHAP answers the “why”.
 
