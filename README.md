@@ -51,12 +51,13 @@ For this project I will create a mass of dummy data, which represents data real.
 
 Below the data dictionary:
 
-|:--------------------------------------:|:----------------------------------------------------------:|
-|Predictor Variable 1 (productivity)     |Overall Equipment Effectiveness: This is a measure of productivity, which describes the of the time a machine works at peak performance. The metric is a product of themachine availability, performance and quality|
-|Predictor Variable 2 (yield)            |First Pass Yield: This is the share of products that leave the production and that are free of defects and meet specifications without the need for any rectification work.|
-|Predictor Variable 3 (cost)             |Energy cost per unit: This is the cost of electricity, steam, oil or gas required to produce a particular unit of product at the factory.|
-|Predictor Variable 4 (priority)         |Equipment priority when entering the maintenance period (Low, Medium, High).|
-|Predictor Variable 5 (efficiency)       |The amount of product that a machine produces during a specific period. That metric can also be applied to the entire production line to check its efficiency.|
-|**Target Variable (maintenance)**       |0 means the equipment does not require maintenance (no) and 1 means the equipment requires maintenance (yes)|
+|                                                 |                                                            |
+|:-----------------------------------------------:|:----------------------------------------------------------:|
+|Predictor Variable 1 (productivity)              |Overall Equipment Effectiveness: This is a measure of productivity, which describes the of the time a machine works at peak performance. The metric is a product of themachine availability, performance and quality|
+|Predictor Variable 2 (yield)                     |First Pass Yield: This is the share of products that leave the production and that are free of defects and meet specifications without the need for any rectification work.|
+|Predictor Variable 3 (cost)                      |Energy cost per unit: This is the cost of electricity, steam, oil or gas required to produce a particular unit of product at the factory.|
+|Predictor Variable 4 (priority)                  |Equipment priority when entering the maintenance period (Low, Medium, High).|
+|Predictor Variable 5 (efficiency)                |The amount of product that a machine produces during a specific period. That metric can also be applied to the entire production line to check its efficiency.|
+|**Target Variable (maintenance)**                |0 means the equipment does not require maintenance (no) and 1 means the equipment requires maintenance (yes)|
 
 ***
